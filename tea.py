@@ -1,11 +1,12 @@
 print('Do you want to prepare ? (Y/N) :')
 choice = input()
-if choice == "Y" or 'y':
+if choice == "Y" :
     choice2 = input('Do you want to proceed and want to add water on flame ? (Y/N) :\n')
     if choice2 == 'Y'or 'y':
         input('Continue adding sugar and tea powder. (Y/N) :\n')
         print("wait a minute to boil water ")
-
+    else :
+        print('what')
         import time
         time.sleep(5)
 
