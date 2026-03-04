@@ -1,6 +1,6 @@
 low = 1
 high = 100
-print("Think of a number between 1 and 100.")
+input("Think of a number between 1 and 100. : ")
 
 while True:
     guess = (low + high) // 2
